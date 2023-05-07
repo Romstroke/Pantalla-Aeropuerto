@@ -1,0 +1,104 @@
+body{
+    margin-top: 50px;
+    padding: 0;
+    background: rgb(104,129,255);
+    background: radial-gradient(circle, rgba(104,129,255,1) 0%, rgba(252,70,107,0.4514180672268907) 100%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+ .header {
+    
+    margin: 0 auto;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 10px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
+    border-radius: 40px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    text-align: justify;
+    
+}
+
+
+.contenedor__time{
+    
+    display: flex;
+   justify-content: center;
+   margin-bottom: 25px;
+
+
+    .time {
+    margin: 30px 20px 0 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: -1px -1px 6px 0 rgb(122, 221, 102), 4px 4px 16px 2px rgb(92, 162, 235);
+    border-radius: 40px;
+    width: 10%;
+    height: 50%;
+     } 
+
+}
+.contenedor__vuelo{
+
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 30%;
+    height: 40%;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 10px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
+    border-radius: 40px;
+}
+
+.modal{
+   display: block;
+   width: 100%;
+   height: 100%;
+   z-index: 10;
+   position: fixed;
+   left: 0;
+   top: 0;
+   background-color: rgba(61, 46, 46, 0.644);
+   
+
+}
+
+
+.modal__contenido {
+    
+    background-color: rgb(255, 218, 250);
+    box-shadow: -1px -1px 6px 0 rgb(157, 167, 255), 4px 4px 16px 2px rgb(199, 92, 154);
+    width: 600px;
+    height: 240px;
+    margin: 10% auto;
+    padding: 10px;
+    border-radius: 30px;    
+}
+
+.modal__aviso, .modal__mensaje {
+        text-align: center;
+        font-weight: 400;
+        
+}
+
+.modal__contenido button{
+   
+   
+   background-color: rgba(177, 102, 221, 0.664);
+   border-radius: 20px;
+   border: solid 0 rgb(146, 3, 127);
+   margin-left: 250px;
+    
+}
+
+span{
+    font-weight: 650;
+}
+
+

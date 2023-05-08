@@ -123,15 +123,17 @@ var terminales = {
    4:'5',
    5:'6',
    6:'7',
-   7:'8',
+   siete:'8',
    8:'9',
    9:'10'};
 
-   var terminales = ['1','2','23','45'];
+   // var terminales = ['1','2','23','45'];
 
 
-   var randomItem = terminales[Math.floor(Math.random()*terminales.length)];
-   console.log(random_item)
+   var randomItem = terminales[Math.floor(Math.random()*Object.keys(terminales).length)]; // object.keys método, que devuelve una array que representa todas las propiedades enumerables del objeto. Si el objeto está vacío, la longitud de llamada de la array devuelta por Object.keys() debería ser 0.
+                                                                                          
+
+   console.log(randomItem)
 
 //////// FUNCION QUE RECORRE LOS TERMINALES y los inyecta
 

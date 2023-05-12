@@ -74,8 +74,8 @@ body{
     
     background-color: rgb(255, 218, 250);
     box-shadow: -1px -1px 6px 0 rgb(157, 167, 255), 4px 4px 16px 2px rgb(199, 92, 154);
-    width: 600px;
-    height: 240px;
+    width: 50%;
+    height: 350px;
     margin: 10% auto;
     padding: 10px;
     border-radius: 30px;    
@@ -93,7 +93,7 @@ body{
    background-color: rgba(177, 102, 221, 0.664);
    border-radius: 20px;
    border: solid 0 rgb(146, 3, 127);
-   margin-left: 250px;
+   margin-left: 50%;
     
 }
 
@@ -109,6 +109,9 @@ span{
 
     .contenedor__vuelo{
         width: 60%;
+    }
+    .modal__contenido{
+        height: 300px;
     }
 }
 
@@ -126,5 +129,10 @@ span{
         margin: 0 auto;
         padding: 0;
         width: 50%;
+    }
+
+    .modal__contenido{
+        width: 60%;
+        height: 250px;
     }
 }

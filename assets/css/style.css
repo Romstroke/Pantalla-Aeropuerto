@@ -3,17 +3,18 @@ body{
     padding: 0;
     background: rgb(104,129,255);
     background: radial-gradient(circle, rgba(104,129,255,1) 0%, rgba(252,70,107,0.4514180672268907) 100%);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
 }
 
  .header {
     
-    margin: 0 auto;
     background-color: aliceblue;
     box-shadow: 5px 5px 10px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
     border-radius: 40px;
-    width: 50%;
+    width: 70%;
     height: 50%;
     display: flex;
     justify-content: center;
@@ -26,31 +27,30 @@ body{
 
 .contenedor__time{
     
-    display: flex;
+   display: flex;
    justify-content: center;
    margin-bottom: 25px;
 
 
     .time {
-    margin: 30px 20px 0 20px;
-    padding: 20px;
+         
+    margin: 30px;
+    padding: 35px;
     background-color: aliceblue;
     box-shadow: -1px -1px 6px 0 rgb(122, 221, 102), 4px 4px 16px 2px rgb(92, 162, 235);
     border-radius: 40px;
-    width: 10%;
+    width: 70%;
     height: 50%;
      } 
 
 }
 .contenedor__vuelo{
 
-    margin-top: 20px;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-    width: 30%;
-    height: 40%;
+    width: 75%;
+    height: 10%;
     background-color: aliceblue;
     box-shadow: 5px 5px 10px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
     border-radius: 40px;
@@ -102,3 +102,29 @@ span{
 }
 
 
+@media (min-width:820px){
+    .header{
+        width: 60%;
+    }
+
+    .contenedor__vuelo{
+        width: 60%;
+    }
+}
+
+@media(min-width:1100px) {
+    .header{
+        width: 50%;
+    }
+
+    .contenedor__time{
+        justify-content: center;
+        margin: 0 20% 0;
+    }
+    .contenedor__vuelo{
+        justify-content: center;
+        margin: 0 auto;
+        padding: 0;
+        width: 50%;
+    }
+}
